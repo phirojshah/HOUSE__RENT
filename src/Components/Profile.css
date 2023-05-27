@@ -1,0 +1,56 @@
+/* .wrapper{
+  margin-bottom: 10px;
+} */
+
+.login-link{
+    justify-content: center;
+    padding-left: 300px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: green;
+  }
+  .already_account{
+  padding-left: 230px;
+  margin-top: 20px;
+  }
+  
+  
+  .signup{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+  }
+  .login-link a{
+    color: green;
+    text-decoration: none;
+  }
+  .Dob{
+    height: 50px;
+    width: 50%;
+    margin-top: 20px;
+    position: relative;
+  }
+  .Dob input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid Black;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  /*
+  form .Dob input:focus ~ label,
+  form .Dob input:valid ~ label{
+    top: 0%;
+    font-size: 16px;
+    color: #4158d0;
+    background: #fff;
+    transform: translateY(-50%);
+  }
+  
+  */
+  

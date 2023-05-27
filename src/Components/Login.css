@@ -1,0 +1,136 @@
+.wrapper{
+    height: 200px;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-bottom: 200px;
+
+    
+}
+
+   .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    user-select: none;
+    width:52%;
+    border-radius: 15px;
+    background: linear-gradient(-135deg, #2C3333, #2C3333);
+  }
+  
+  .form{
+    padding: 10px 30px 50px 30px;
+  
+}
+
+  .field{
+    height: 50px;
+    width: 50%;
+    margin-top: 20px;
+    position: relative;
+    
+  }
+ 
+  .field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid Black;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .field input:focus,
+  form .field input:valid{
+    border-color: #4158d0;
+  }
+  
+   .field label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    border-color: none;
+    font-weight: 400;
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+  }
+  
+  form .field input:focus ~ label,
+  form .field input:valid ~ label{
+    top: 0%;
+    font-size: 16px;
+    color: #4158d0;
+    background: #fff;
+    transform: translateY(-50%);
+  }
+  
+  .content{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+   .checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content input{
+    width: 15px;
+    height: 15px;
+    background: red;
+  }
+  
+   .content label{
+    color: #262626;
+    user-select: none;
+    padding-left: 5px;
+  }
+  
+   .pass-link{
+    color: "";
+  }
+  
+   .field input[type="submit"]{
+    color: #fff;
+    border: none;
+    padding-left: 0;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, #2C3333, #2C3333);
+    transition: all 0.3s ease;
+  }
+  
+  .field input[type="submit"]:active{
+    transform: scale(0.95);
+  }
+  
+  .signup-link{
+    color: #262626;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 50%;
+ }
+  
+   .pass-link a,
+   .signup-link a{
+    color: green;
+    text-decoration: none;
+    
+  }
+  
+ 

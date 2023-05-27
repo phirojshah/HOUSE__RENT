@@ -1,0 +1,30 @@
+.dashboard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; /* align items at the top */
+    width: 100vw;
+   
+    margin-left: 10%;
+   
+  }
+
+  .SideMenu{
+    padding-left: 1%;
+  }
+ .statistics{
+    padding-left: 10%;
+ }
+ 
+ .Table{
+  padding-left: 30%;
+ }
+ .customers{
+  padding-left: 30%;
+
+ }
+ .properties{
+  padding-left: 40%;
+ }
+ .inventory{
+  padding-left: 40%;
+ }
